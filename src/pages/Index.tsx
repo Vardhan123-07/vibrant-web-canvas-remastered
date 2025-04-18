@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Mail, Phone, Code, Book, Headphones, Cricket, FileCode } from 'lucide-react';
+import { Mail, Phone, Code, Book, Headphones, Gamepad2, FileCode } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -69,7 +68,7 @@ const Index = () => {
                   <span>Learning Programming</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Cricket className="text-primary" />
+                  <Gamepad2 className="text-primary" />
                   <span>Playing Cricket</span>
                 </div>
                 <div className="flex items-center space-x-2">
